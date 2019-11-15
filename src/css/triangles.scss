@@ -1,0 +1,26 @@
+.triangles-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 0; // так как абсолютное позиционирование
+  .triangle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    clip: rect(auto, 30px, auto, 0px);
+    transform: scale(1.8, 1);
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 10px;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      background: linear-gradient(135deg, rgba(123, 184, 231, 0.8) 0.16%, #4075D3 55%);
+      transform: rotate(-45deg);
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import "fonts";
+
+/* Basic settings */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#q-app {
+  overflow: hidden;
+}
+
+/* Fonts */
+@import "fonts";
+
+// animation
+.fade-enter-active {
+  transition: .25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-leave-active{
+  transition: .1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fade-leave-to{
+  opacity: 0;
+}

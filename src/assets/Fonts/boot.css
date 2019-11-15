@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Hattori Hanzo;
+  src: url("Hattori Hanzo/Hattori Hanzo.otf");
+}
+
+@font-face {
+  font-family: Hattori Hanzo;
+  src: url("Hattori Hanzo/Hattori Hanzo Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Geometr212;
+  src: url("Geometr/Geometric 212 Book Condensed BT.ttf");
+}
+
+@font-face {
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 300;
+  src: url("Geometria/Geometria-Light.woff");
+}
+
+@font-face {
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  src: url("Geometria/Geometria-Medium.woff");
+}
+
+@font-face {
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 700;
+  src: url("Geometria/Geometria-Bold.woff");
+}
